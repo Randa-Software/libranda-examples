@@ -1,0 +1,20 @@
+{
+    "name": "libranda-examples-counter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "build": "node build.js"
+    },
+    "author": "MVDW-Java",
+    "license": "AGPL-3.0-only",
+    "description": "Example counter application using libranda client and server",
+    "dependencies": {
+        "libranda-client": "^0.1.0",
+        "libranda-server": "^0.1.0"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.4"
+    }
+}
